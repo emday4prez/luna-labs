@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cca59f1d.chunk.css",
+    "main.js": "/static/js/main.67f3c20a.chunk.js",
+    "main.js.map": "/static/js/main.67f3c20a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.31603a33.js",
+    "runtime-main.js.map": "/static/js/runtime-main.31603a33.js.map",
+    "static/js/2.4d991c59.chunk.js": "/static/js/2.4d991c59.chunk.js",
+    "static/js/2.4d991c59.chunk.js.map": "/static/js/2.4d991c59.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.cca59f1d.chunk.css.map": "/static/css/main.cca59f1d.chunk.css.map",
+    "static/js/2.4d991c59.chunk.js.LICENSE.txt": "/static/js/2.4d991c59.chunk.js.LICENSE.txt",
+    "static/media/energy.svg": "/static/media/energy.58a1d1dd.svg",
+    "static/media/environment.svg": "/static/media/environment.1fd3e8bd.svg",
+    "static/media/luna-labs.png": "/static/media/luna-labs.bb65aab3.png",
+    "static/media/refresh.svg": "/static/media/refresh.09c83c0b.svg",
+    "static/media/video.929d6e19.mp4": "/static/media/video.929d6e19.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31603a33.js",
+    "static/js/2.4d991c59.chunk.js",
+    "static/css/main.cca59f1d.chunk.css",
+    "static/js/main.67f3c20a.chunk.js"
+  ]
+}
