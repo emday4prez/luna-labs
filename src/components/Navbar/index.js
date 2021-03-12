@@ -35,7 +35,7 @@ const Navbar = ({ toggle }) => {
 
     return (
         <>
-            <IconContext.Provider value={{ color: '#e0eeff' }}>
+            <IconContext.Provider value={{ color: '#3d536b' }}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
                         <NavLogo to="/" onClick={toggleHome}>
@@ -52,18 +52,52 @@ const Navbar = ({ toggle }) => {
                         </MobileIcon>
                         <NavMenu>
                             <NavItem>
-                                <NavLinks to="about">About</NavLinks>
+                                <NavLinks
+                                    to="home"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact="true"
+                                    offset={-80}
+                                >
+                                    About
+                                </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="quality">Quality</NavLinks>
+                                <NavLinks
+                                    to="quality"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact="true"
+                                    offset={-80}
+                                >
+                                    Quality
+                                </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="sustainable">
+                                <NavLinks
+                                    to="sustainable"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact="true"
+                                    offset={-80}
+                                >
                                     Sustainable
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="wellness">Wellness</NavLinks>
+                                <NavLinks
+                                    to="wellness"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact="true"
+                                    offset={-80}
+                                >
+                                    Wellness
+                                </NavLinks>
                             </NavItem>
                         </NavMenu>
                         <NavBtn>

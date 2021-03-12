@@ -2,14 +2,14 @@ import './App.css';
 import Home from './pages';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Contact from './pages/contact';
+import ContactPage from './pages/contact';
 
 function App() {
     return (
         <Router>
             <Switch>
                 <Route path="/" component={Home} exact />
-                <Route path="/contact" component={Contact} exact />
+                <Route path="/contact" component={ContactPage} exact />
             </Switch>
         </Router>
     );

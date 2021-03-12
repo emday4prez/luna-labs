@@ -15,8 +15,8 @@ export const Nav = styled.nav`
     top: 0;
     z-index: 10;
 
-    @media screen and (max-width: 960px) {
-        transition: 0.8s all ease;
+    @media screen and (max-width: 1400px) {
+        transition: 1.25s all ease;
     }
 `;
 
@@ -83,7 +83,7 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid lavender;
+        border-bottom: 3px solid white;
     }
 `;
 

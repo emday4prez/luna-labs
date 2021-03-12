@@ -1,7 +1,13 @@
 import React from 'react';
-
-const Contact = () => {
-    return <div></div>;
+import Contact from '../components/contact';
+import ScrollToTop from '../components/scrollToTop';
+const ContactPage = () => {
+    return (
+        <>
+            <ScrollToTop />
+            <Contact />
+        </>
+    );
 };
 
-export default Contact;
+export default ContactPage;

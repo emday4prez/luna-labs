@@ -78,7 +78,7 @@ const Footer = () => {
                         <SocialLogo to="/" onClick={toggleHome}>
                             <FooterLogo
                                 src={
-                                    require('../../images/logos/moon_little.png')
+                                    require('../../images/logos/whiteMoon.png')
                                         .default
                                 }
                             />

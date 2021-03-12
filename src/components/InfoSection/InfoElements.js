@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
     color: #e0eeff;
     background: ${({ lightBg }) => (lightBg ? '#e0eeff' : '#3d536b')};
-    padding-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -13,11 +14,12 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 90vh;
+    height: 70vh;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
+
     padding: 0 20px;
     justify-content: center;
 `;
@@ -49,7 +51,7 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
-    padding-bottom: 60px;
+    padding-bottom: 6px;
 `;
 
 export const TopLine = styled.p`
