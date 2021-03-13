@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Video from '../../videos/video.mp4';
 import { Button } from '../ButtonElements';
+import Logo from '../Banner';
 import {
     HeroContainer,
     HeroBg,
@@ -14,33 +15,19 @@ import {
 } from './HeroElements';
 
 const HeroSection = () => {
-    const [hover, setHover] = useState(false);
-
-    const onHover = () => {
-        setHover(!hover);
-    };
     return (
         <HeroContainer id="home">
-            <HeroBg>
-                <VideoBg
-                    playsInline
-                    autoPlay
-                    loop
-                    muted
-                    src={Video}
-                    type="video/mp4"
-                />
-            </HeroBg>
+            <Logo />
             <HeroContent>
                 <HeroH1>The Future of Wellness</HeroH1>
                 <HeroP>
-                    We exist for the well-being of the collective. To perpetuate
-                    healthy, happy, storied lives, with the good of our planet
-                    at the heart of everything we do. No gimmicks, no bullshit,
-                    just honest, authentic products that deliver exactly what’s
-                    promised.
+                    Luna Labs exists for the well-being of the collective. To
+                    perpetuate healthy, happy, storied lives, with the good of
+                    our planet at the heart of everything we do. No gimmicks, no
+                    bullshit, just honest, authentic products that deliver
+                    exactly what’s promised.
                 </HeroP>
-                <HeroBtnWrapper>
+                {/* <HeroBtnWrapper>
                     <Button
                         to="/contact"
                         onMouseEnter={onHover}
@@ -55,7 +42,7 @@ const HeroSection = () => {
                     >
                         Contact {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
-                </HeroBtnWrapper>
+                </HeroBtnWrapper> */}
             </HeroContent>
         </HeroContainer>
     );

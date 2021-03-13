@@ -1,22 +1,23 @@
 import styled from 'styled-components';
 
 export const LogoBanner = styled.img`
-    width: 100%;
-    margin-top: 30px;
+    width: 70%;
+
     padding-right: 0;
     min-height: 30vh;
+    object-fit: contain;
 `;
 
 export const BannerContainer = styled.div`
     color: #e0eeff;
-    background: white;
+    background: transparent;
+    ${'' /* background: linear-gradient(white, #e0eeff); */}
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
 
     z-index: 1;
-    padding-top: 2rem;
+    padding-top: 1rem;
 
     ${
         '' /* @media screen and (max-width: 768px) {

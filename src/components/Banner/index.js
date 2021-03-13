@@ -6,7 +6,10 @@ const Logo = () => {
         <>
             <BannerContainer>
                 <LogoBanner
-                    src={require('../../images/logos/luna-labs.png').default}
+                    src={
+                        require('../../images/logos/LUNA_LABS_LOGO_web.png')
+                            .default
+                    }
                     alt={'luna labs company text logo'}
                 />
             </BannerContainer>
